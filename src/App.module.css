@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+.wrapper>div:first-of-type {
+  margin-top: 53px;
+}
+
+.taskList {
+  margin-top: 64px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
